@@ -104,3 +104,23 @@ mark
     margin: 13px 0 13px 27px;
     cursor: pointer;
 }
+
+
+
+/* =========> Media Query <========= */
+
+@media screen and (max-width: 1440px) {
+
+    main {
+        padding: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    /* ====== Main ====== */
+
+    main {
+        padding: 2em 0;
+    }
+}
