@@ -1,0 +1,106 @@
+/* =========> CSS Settings <========= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* ====== Main ====== */
+
+/* case-hebergements */
+
+main {
+    padding: 2em 20em;
+}
+
+.case-hebergements {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 30px;
+}
+
+/* Titre du bloc */ 
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+/* Bloc */
+
+.bloc
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+    gap: 30px; 
+}
+
+/* Carré plus détails */
+
+.carre-hebergements 
+{
+    height: 189px;
+    width: 230px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+
+.bloc img     
+{ 
+    height: 108px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.carre-hebergements h3 {
+    margin: 5px 0 0 11px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.prix {
+    margin: 5px 0 0 11px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+mark
+{
+    background: none;
+    font-weight: 700;
+}
+
+.etoile
+{
+    margin: 5px 0 0 11px;
+    color: #0065FC;
+    font-size: 11px;
+}
+
+.stargray
+{
+    color: rgb(217, 217, 217);
+}
+
+/* Lien afficher plus */
+
+.affiche-plus
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 13px 0 13px 27px;
+    cursor: pointer;
+}
